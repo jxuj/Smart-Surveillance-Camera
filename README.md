@@ -19,7 +19,9 @@ pip install -r requirements.txt
 
 2. Place trained models in corresponding sub-directories under the models directory which can be found under the root directory.
 
-3. Modified the setting files provided in respect to the models used, which can be found in object_detection/face_recognition under the root directory.
+3. Modify label map files which can be found in sub-directories under the models directory. Note that label maps for object detection models should be placed under the specific model directory with one file per model.
+
+4. Modify setting files which can be found in object_detection/face_recognition under the root directory.
 For example, the name of the directory containing the object detection model to be used has to be defined in the object detection setting file.
 
 ## Run the program
