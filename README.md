@@ -1,6 +1,6 @@
 # Smart Surveillance Camera
 
-This repository contains a Python program capable of running object detection and face recognition with models trained using TensorFlow.
+This repository contains a Python program capable of running object detection and face recognition on a remote camera with models trained using TensorFlow which can be potentially used for building intelligent video surveillance systems.
 
 For object detection, a list of pre-trained models can be found at [Tensorflow detection model zoo](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/detection_model_zoo.md).
 
@@ -24,7 +24,7 @@ For example, the name of the directory containing the object detection model to 
 
 ## Run the program
 
-After successfully completing the setup steps, you will be ready to run the program.
+After successfully completing the setup steps, you'll be ready to run the program except that you have to define the URL of the remote camera used as inputs to this program in the setting file under the root directory.
 
 To run the program
 ```Shell
