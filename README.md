@@ -17,7 +17,7 @@ This project is tested using TensorFlow 1.14.0, Python 3.6, scipy 1.1.0 and nump
 pip install -r requirements.txt
 ```
 
-2. Place trained models in corresponding sub-directories under the models directory which can be found under the root directory.
+2. Place trained models in corresponding sub-directories under the models directory which can be found under the root directory. Pre-trained models for face detection can be found at [Face Recognition using Tensorflow](https://github.com/davidsandberg/facenet), which should also be placed under face_recognition.
 
 3. Modify label map files which can be found in sub-directories under the models directory. Note that label maps for object detection models should be placed under the specific model directory with one file per model.
 
