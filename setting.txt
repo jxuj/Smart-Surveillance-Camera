@@ -1,0 +1,2 @@
+The URL of the webcam to be used as the source of input
+e.g. http://000.00.000.00:8080/shot.jpg

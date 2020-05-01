@@ -1,0 +1,14 @@
+Max number of classes of faces to be detected
+10
+The size of the input to be resized to
+160
+Minimum face size to be detected
+120
+Three steps facial detection threshold
+0.6
+0.7
+0.7
+The factor used to create a scaling pyramid of face sizes to detect in the image
+0.7
+The facial recognition threshold
+0.95

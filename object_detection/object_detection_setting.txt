@@ -1,0 +1,10 @@
+Name of the directory containing the object detection model to be used under models\object_detection
+e.g. faster_rcnn_inception_resnet_v2_atrous_oid
+Maximum number of classes of objects to be detected
+e.g. 32
+Put at the next line of a class if you want it to be detected or not. 1 for yes and 0 for no.
+e.g.
+Backpack
+1
+Balloon
+1
